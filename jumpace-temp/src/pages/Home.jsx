@@ -1,5 +1,8 @@
 import FAQSection from '../Components/FAQSection';
 import ContactSection from '../Components/ContactSection';
+import feature1 from '../assets/data-research.svg';
+import feature2 from '../assets/analysis.svg';
+import feature3 from '../assets/planning-strategy.svg';
 
 export default function Home() {
   return (
@@ -56,18 +59,40 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16 mb-6" />
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Feature Title</h3>
+            {/* {[1, 2, 3].map((item) => ( */}
+              <div className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                <img src={feature1} className='border-2 border-dashed rounded-xl w-16 h-16 mb-6' alt="" />
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Data research</h3>
                 <p className="text-gray-600 mb-4">
-                  Comprehensive solution for all your business needs with seamless integration.
+                  Gathering the data fromrelevant places to ensure accuracy and reliability.
                 </p>
                 <a href="#" className="text-blue-600 font-medium hover:underline">
                   Learn more →
                 </a>
               </div>
-            ))}
+
+              <div className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                <img src={feature2} className='border-2 border-dashed rounded-xl w-16 h-16 mb-6' alt="" />
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Data Analytics</h3>
+                <p className="text-gray-600 mb-4">
+                  Analysing the gathered data andrefine it
+                </p>
+                <a href="#" className="text-blue-600 font-medium hover:underline">
+                  Learn more →
+                </a>
+              </div>
+
+              <div className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                <img src={feature3} className='border-2 border-dashed rounded-xl w-16 h-16 mb-6' alt="" />
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Planning and Strategy</h3>
+                <p className="text-gray-600 mb-4">
+                  Strategizing the data for the implementation
+                </p>
+                <a href="#" className="text-blue-600 font-medium hover:underline">
+                  Learn more →
+                </a>
+              </div>
+            {/* ))} */}
           </div>
         </div>
       </section>
