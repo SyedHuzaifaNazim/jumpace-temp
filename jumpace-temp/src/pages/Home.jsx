@@ -1,4 +1,4 @@
-import ContactSection from "../components/contactSection";
+import ContactSection from "../components/ContactSection";
 import FAQSection from "../components/FaqSection";
 
 export default function Home() {
@@ -72,7 +72,11 @@ export default function Home() {
         </div>
       </section>
       {/* FAQs Section */}
+    <div className="min-h-screen">
+      {/* ... other sections ... */}
       <FAQSection />
+      {/* ... other sections ... */}
+    </div>
       
       {/* Testimonials Section */}
       {/* Contact Section */}
