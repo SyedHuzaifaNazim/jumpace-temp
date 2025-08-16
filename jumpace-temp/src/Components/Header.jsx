@@ -30,7 +30,7 @@ export default function Header() {
             alt="Logo" 
             className="h-10 w-10 md:h-12 md:w-12 object-contain" 
           />
-          <span className="ml-2 text-xl font-bold text-white">JumpPace</span>
+          <span className="ml-2 text-xl font-bold text-white">Jumppace</span>
         </div>
 
         {/* Desktop Navigation */}
