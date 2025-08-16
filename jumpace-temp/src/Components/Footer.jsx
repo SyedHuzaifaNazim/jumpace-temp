@@ -1,3 +1,4 @@
+import logo from '../assets/logo-1.webp';
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
@@ -6,8 +7,8 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-12 h-12" />
-              <span className="ml-3 text-xl font-bold">JumpPace</span>
+              <img src={logo} className=" border-dashed rounded-xl  " />
+              
             </div>
             <p className="text-gray-400 mb-6">
               Accelerating digital transformation for businesses worldwide.
