@@ -1,5 +1,5 @@
-import ContactSection from "../components/ContactSection";
-import FAQSection from "../components/FaqSection";
+import FAQSection from '../Components/FAQSection';
+import ContactSection from '../Components/ContactSection';
 
 export default function Home() {
   return (

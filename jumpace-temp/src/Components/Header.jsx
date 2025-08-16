@@ -1,15 +1,15 @@
 import { useState } from 'react';
+import logo from '../assets/logo-1.webp'; // Adjust the path as necessary
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-black shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        {/* Logo */}
+        <img src={logo} alt="Logo" className=" inline-block mr-2" />
         <div className="flex items-center">
-          <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-          <span className="ml-3 text-2xl font-bold text-gray-800">JumpPace</span>
+
         </div>
 
         {/* Desktop Navigation */}
