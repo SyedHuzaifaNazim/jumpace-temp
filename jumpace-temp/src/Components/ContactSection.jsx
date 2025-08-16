@@ -40,7 +40,7 @@ const ContactSection = () => {
                 </svg>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Location</h3>
-                  <p className="text-gray-300">Lucknow, UP, India</p>
+                  <p className="text-gray-300">Karachi , Sindh , Pakistan</p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ const ContactSection = () => {
                 </svg>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Phone</h3>
-                  <p className="text-gray-300">+91 9876543210</p>
+                  <p className="text-gray-300">+1 908 224 3172</p>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ const ContactSection = () => {
                 </svg>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email</h3>
-                  <p className="text-gray-300">kuldeepprajapati2111@gmail.com</p>
+                  <p className="text-gray-300">info@jumppace.com</p>
                 </div>
               </div>
             </div>
