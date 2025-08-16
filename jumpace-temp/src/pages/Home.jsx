@@ -1,4 +1,5 @@
-
+import ContactSection from "../components/contactSection";
+import FAQSection from "../components/FaqSection";
 
 export default function Home() {
   return (
@@ -70,7 +71,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* FAQs Section */}
+      <FAQSection />
+      
+      {/* Testimonials Section */}
+      {/* Contact Section */}
+      <ContactSection />
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="container mx-auto px-4 text-center">
